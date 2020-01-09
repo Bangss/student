@@ -1,6 +1,8 @@
 package neusoft.controller;
 
+import neusoft.pojo.Login;
 import neusoft.pojo.Student;
+import neusoft.service.LoginService;
 import neusoft.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -16,6 +18,8 @@ import java.util.Date;
 public class StudentController {
     @Autowired
     private StudentService studentService;
+    @Autowired
+    private LoginService loginService;
 
 //    @GetMapping("/register")
 //    public void get(){}
@@ -23,7 +27,7 @@ public class StudentController {
 
 
     @PostMapping("/register")
-    public String register( Student student , Model model ) {
+    public String register( Login login , Student student , Model model ) {
         if(studentService.getByEmail(student.getEmail()) != null)
         {
             model.addAttribute("msg" , "邮箱已被注册");
@@ -36,6 +40,9 @@ public class StudentController {
         if (flag)
         {
 //            //注册成功
+            login.setId(student.getStuId());
+            login.setPassword("000000");
+            loginService.insert(login);
             System.out.println("register succeeded");
             return "forward:../login.jsp";
         }
