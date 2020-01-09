@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="lingnan.mapper.StudyroomMapper">
+
+    <!--测试deleteOne-->
+    <!--delete id="deleteOne">
+        delete from studyroom where rid = #{rid};
+    </delete-->
+
+    <!--查找要求中科室-->
+    <select id="selectStudyroomByMethod" resultType="Studyroom">
+        select * from Studyroom
+        <where>
+            <!--查看学生自己已经申请的科室-->
+            <if test="sid != null">and useBySid = #{sid} and isEmpty = 3</if>
+            <!--查找学生已经被批准的科室-->
+            <if test="sid != null and isEmpty != null">and useBySid = #{sid} and isEmpty = 1</if>
+            <!--学生查找全部空科室-->
+            <!--老师查找待处理空科室 空/拒绝0 批准/占用1 待处3-->
+            <if test="isEmpty != null">and isEmpty = #{isEmpty}</if>
+        </where>
+    </select>
+
+    <!--学生申请科室-->
+    <update id="studentApplyForRoom">
+        update Studyroom
+        <set>
+            <if test="isEmpty == 3">useBySid = #{sid},isEmpty = 3,applyTime = #{applyTime},returnTime = #{returnTime}</if>
+            <if test="isEmpty == 0">useBySid = null,isEmpty = 0,applyTime = null,returnTime = null</if>
+        </set>
+        where rid=#{rid};
+    </update>
+
+    <!--学生确认离开科室-->
+    <update id="studentLeaveStudyroom">
+        update studyroom
+        <set>
+            useBySid = NUll,
+            isEmpty = 0,
+            applyTime = NULL,
+            returnTime = NULL,
+            signUpTid =NULL
+        </set>
+        where useBySid = #{sid};
+    </update>
+
+    <!--老师处理科室 批准1 拒绝0-->
+    <update id="teacherDealRoom">
+        update Studyroom
+        <set>
+            <if test="isEmpty == 1">isEmpty = #{isEmpty},signUpTid = #{tid}</if>
+            <if test="isEmpty == 0">isEmpty = #{isEmpty},useBySid = NULL,returnTime = NULL,signUpTid = NULL,applyTime = NULL</if>
+        </set>
+        where rid = #{rid};
+    </update>
+
+</mapper>
