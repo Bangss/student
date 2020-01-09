@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="neusoft.mapper.StudyroomMapper">
+
+    <!--查找要求中科室-->
+    <select id="selectStudyroomByMethod" resultType="Studyroom">
+        select * from Studyroom
+        <where>
+            <!--查看学生自己已经申请的科室-->
+            <if test="Sid != NULL">and UseById = #{Sid}</if>
+            <!-- 学生查找全部空科室 -->
+            <!-- 老师查找待处理空科室 空/拒绝0 批准/占用1 待处3-->
+            <if test="IsEmpty != NULL">or IsEmpty = #{IsEmpty}</if>
+        </where>;
+    </select>
+
+    <!--学生申请科室-->
+    <update id="studentApplyForRoom">
+        update Studyroom
+        <set>
+            <if test="Sid != NULL">UseBySid = #{Sid},</if>
+            IsEmpty = 3,
+            ApplyTime = now(),
+            ReturnTime = #{ReturnTime}
+        </set>
+        where Rid=#{Rid};
+    </update>
+
+    <!--学生确认离开科室-->
+    <update id="studentLeaveStudyroom">
+        update studyroom
+        <set>
+            UseBySid = Null,
+            IsEmpty = 0,
+            ApplyTime = Null,
+            ReturnTime = NULL,
+            SignUpTid =NULL
+        </set>
+        where UseBySid = #{UseBySid};
+    </update>
+
+    <!--老师处理科室 批准1 拒绝0-->
+    <update id="teacherDealRoom">
+        update Studyroom
+        <set>
+            <if test="IsEmpty = 1">IsEmpty = #{IsEmpty},SignUpTid = #{Tid}</if>
+            <if test="IsEmpty = 0">IsEmpty = #{IsEmpty},UseById=NULL,ReturnTime = NULL,SignUpTid =NULL</if>
+        </set>
+        where Rid = #{Rid};
+    </update>
+
+</mapper>
