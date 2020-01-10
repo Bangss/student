@@ -14,9 +14,9 @@ public interface TeacherMapper {
     Teacher getByEmail ( String email );
     boolean updateLastLogTime ( @Param("teaId") Integer teaId, @Param("lastLogTime") String lastLogTime );
     Teacher getById ( Integer teaId );
-    List<Teacher> getAll ( );
-    boolean updatePass ( @Param("teaId") Integer teaId, @Param("password") String password );
+    List<Teacher> getAll ();
     boolean deleteById ( Integer teaId );
     boolean delete ( List<Integer> list );
     boolean insert ( Teacher teacher );
+    boolean update (Teacher teacher);
 }

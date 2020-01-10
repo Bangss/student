@@ -3,6 +3,7 @@ package lingnan.controller;
 import lingnan.pojo.Login;
 import lingnan.service.LoginService;
 import lingnan.service.StudentService;
+import lingnan.service.TeacherService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -21,6 +22,8 @@ public class LoginController {
     private LoginService loginService;
     @Autowired
     private StudentService studentService;
+    @Autowired
+    private TeacherService teacherService;
 
     @PostMapping ( value = "/login")
     public String login( Integer id , String password , Model model ,  HttpSession session)
@@ -34,15 +37,19 @@ public class LoginController {
             //每次登录都更新一次登录时间
             String date = String.valueOf(LocalDate.now());
             System.out.println(id + "  " + date);
-            studentService.updateLastLogTime(id,date);
+            //学生
            if(loginService.getSup(id) == 1)
            {
+               studentService.updateLastLogTime(id , date);
                return "student";
            }
+           //老师
             else if (loginService.getSup(id) == 2)
            {
+               teacherService.updateLastLogTime(id , date);
                return "teacher";
            }
+            //管理员
             else
            {
                return "admin";

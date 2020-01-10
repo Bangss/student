@@ -33,11 +33,6 @@ public class TeacherServiceImpl implements TeacherService {
     }
 
     @Override
-    public boolean updatePass ( Integer teaId, String password ) {
-        return teacherMapper.updatePass(teaId , password);
-    }
-
-    @Override
     public boolean deleteById ( Integer teaId ) {
         return teacherMapper.deleteById(teaId);
     }
@@ -50,5 +45,10 @@ public class TeacherServiceImpl implements TeacherService {
     @Override
     public boolean insert ( Teacher teacher ) {
         return teacherMapper.insert(teacher);
+    }
+
+    @Override
+    public boolean update ( Teacher teacher ) {
+        return teacherMapper.update(teacher);
     }
 }

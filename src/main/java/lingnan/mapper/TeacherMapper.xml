@@ -5,6 +5,18 @@
 <mapper namespace="lingnan.mapper.TeacherMapper">
 
 
+
+    <!-- 配置resultMap属性，进行表字段与实体类属性映射 -->
+    <resultMap id="BaseResultMap" type="lingnan.pojo.Teacher" >
+        <result column="tea_name" property="teaName"></result>
+        <result column="gender" property="gender"></result>
+        <result column="age" property="age"></result>
+        <result column="dep_id" property="depId"></result>
+        <result column="email" property="email"></result>
+        <result column="reg_time" property="regTime"></result>
+        <result column="last_log_time" property="lastLogTime"></result>
+    </resultMap>
+
     <select id="getById" resultType="Teacher">
         select * from teacher where tea_id = #{teaId}
     </select>
@@ -12,6 +24,14 @@
         select * from teacher
     </select>
 
+    <select id="getByEmail" resultType="Teacher">
+        select * from teacher where email = #{email}
+    </select>
+
+    <update id="updateLastLogTime">
+        update teacher set last_log_time = '${lastLogTime}'
+        where tea_id = '${teaId}'
+    </update>
 
     <delete id="deleteById">
         delete from teacher where tea_id = #{teaId}
@@ -20,7 +40,7 @@
     <delete id="delete">
         delete from teacher
         <where>
-            id
+            tea_id
             <!--id in (id1, id2, id3)-->
             <!--先确定好自己的目标sql，再确定由foreach帮你拼接的部分-->
             <foreach collection="list" item="item" open="in(" close=")" separator=",">
@@ -32,26 +52,44 @@
     <insert id="insert">
         insert into teacher
         <trim prefix="(" suffix=")" suffixOverrides=",">
-            <if test="id != null">
-                id,
+            <if test="teaName != null">
+                tea_name,
             </if>
-            <if test="password != null">
-                password,
+            <if test="gender != null">
+                gender,
             </if>
-            <if test="sup != null">
-                sup,
+            <if test="age != null">
+                age,
+            </if>
+            <if test="depId != null">
+                dep_id,
+            </if>
+            <if test="email != null">
+                email,
+            </if>
+            <if test="regTime != null">
+                reg_time,
             </if>
         </trim>
         values
         <trim prefix="(" suffix=")" suffixOverrides=",">
-            <if test="id != null">
-                #{id},
+            <if test="teaName != null">
+                #{teaName},
             </if>
-            <if test="password != null">
-                #{password},
+            <if test="gender != null">
+                #{gender},
             </if>
-            <if test="sup != null">
-                #{sup},
+            <if test="age != null">
+                #{age},
+            </if>
+            <if test="depId != null">
+                #{depId},
+            </if>
+            <if test="email != null">
+                #{email},
+            </if>
+            <if test="regTime != null">
+                #{regTime},
             </if>
         </trim>
     </insert>
