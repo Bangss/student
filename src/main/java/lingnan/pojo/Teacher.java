@@ -1,43 +1,43 @@
 package lingnan.pojo;
 
 public class Teacher {
-    private Integer tea_id;
-    private String tea_name;
+    private Integer teaId;
+    private String teaName;
     private String gender;
     private Integer age;
-    private Integer dep_id;
+    private Integer depId;
     private String email;
-    private String reg_time;
-    private String last_log_time;
+    private String regTime;
+    private String lastLogTime;
 
     public Teacher ( ) {
     }
 
-    public Teacher ( Integer tea_id, String tea_name, String gender, Integer age, Integer dep_id, String email, String reg_time, String last_log_time ) {
-        this.tea_id = tea_id;
-        this.tea_name = tea_name;
+    public Teacher ( Integer teaId, String teaName, String gender, Integer age, Integer depId, String email, String regTime, String lastLogTime ) {
+        this.teaId = teaId;
+        this.teaName = teaName;
         this.gender = gender;
         this.age = age;
-        this.dep_id = dep_id;
+        this.depId = depId;
         this.email = email;
-        this.reg_time = reg_time;
-        this.last_log_time = last_log_time;
+        this.regTime = regTime;
+        this.lastLogTime = lastLogTime;
     }
 
-    public Integer getTea_id ( ) {
-        return tea_id;
+    public Integer getTeaId ( ) {
+        return teaId;
     }
 
-    public void setTea_id ( Integer tea_id ) {
-        this.tea_id = tea_id;
+    public void setTeaId ( Integer teaId ) {
+        this.teaId = teaId;
     }
 
-    public String getTea_name ( ) {
-        return tea_name;
+    public String getTeaName ( ) {
+        return teaName;
     }
 
-    public void setTea_name ( String tea_name ) {
-        this.tea_name = tea_name;
+    public void setTeaName ( String teaName ) {
+        this.teaName = teaName;
     }
 
     public String getGender ( ) {
@@ -56,12 +56,12 @@ public class Teacher {
         this.age = age;
     }
 
-    public Integer getDep_id ( ) {
-        return dep_id;
+    public Integer getDepId ( ) {
+        return depId;
     }
 
-    public void setDep_id ( Integer dep_id ) {
-        this.dep_id = dep_id;
+    public void setDepId ( Integer depId ) {
+        this.depId = depId;
     }
 
     public String getEmail ( ) {
@@ -72,33 +72,33 @@ public class Teacher {
         this.email = email;
     }
 
-    public String getReg_time ( ) {
-        return reg_time;
+    public String getRegTime ( ) {
+        return regTime;
     }
 
-    public void setReg_time ( String reg_time ) {
-        this.reg_time = reg_time;
+    public void setRegTime ( String regTime ) {
+        this.regTime = regTime;
     }
 
-    public String getLast_log_time ( ) {
-        return last_log_time;
+    public String getLastLogTime ( ) {
+        return lastLogTime;
     }
 
-    public void setLast_log_time ( String last_log_time ) {
-        this.last_log_time = last_log_time;
+    public void setLastLogTime ( String lastLogTime ) {
+        this.lastLogTime = lastLogTime;
     }
 
     @Override
     public String toString ( ) {
         return "Teacher{" +
-                "tea_id=" + tea_id +
-                ", tea_name='" + tea_name + '\'' +
+                "teaId=" + teaId +
+                ", teaName='" + teaName + '\'' +
                 ", gender='" + gender + '\'' +
                 ", age=" + age +
-                ", dep_id=" + dep_id +
+                ", depId=" + depId +
                 ", email='" + email + '\'' +
-                ", reg_time='" + reg_time + '\'' +
-                ", last_log_time='" + last_log_time + '\'' +
+                ", regTime='" + regTime + '\'' +
+                ", lastLogTime='" + lastLogTime + '\'' +
                 '}';
     }
 }

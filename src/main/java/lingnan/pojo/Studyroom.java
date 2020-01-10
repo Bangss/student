@@ -6,8 +6,8 @@ import java.sql.Date;
 
 
 public class Studyroom {
-    private Integer rid;
-    private String rname;
+    private Integer roomId;
+    private String roomName;
     private Integer isEmpty;
     private Integer useBySid;
     private Integer signUpTid;
@@ -18,9 +18,9 @@ public class Studyroom {
     public Studyroom(){
     }
 
-    public Studyroom(Integer rid, String rname, Integer isEmpty, Integer useBySid, Integer signUpTid, Date applyTime, Integer returnTime) {
-        this.rid = rid;
-        this.rname = rname;
+    public Studyroom( Integer roomId, String roomName, Integer isEmpty, Integer useBySid, Integer signUpTid, Date applyTime, Integer returnTime) {
+        this.roomId = roomId;
+        this.roomName = roomName;
         this.isEmpty = isEmpty;
         this.useBySid = useBySid;
         this.signUpTid = signUpTid;
@@ -31,8 +31,8 @@ public class Studyroom {
     @Override
     public String toString() {
         return "Studyroom{" +
-                "rid=" + rid +
-                ", rname='" + rname + '\'' +
+                "rid=" + roomId +
+                ", rname='" + roomName + '\'' +
                 ", isEmpty=" + isEmpty +
                 ", useBySid='" + useBySid + '\'' +
                 ", signUpTid='" + signUpTid + '\'' +
@@ -41,20 +41,20 @@ public class Studyroom {
                 '}';
     }
 
-    public Integer getRid() {
-        return rid;
+    public Integer getRoomId () {
+        return roomId;
     }
 
-    public void setRid(Integer rid) {
-        this.rid = rid;
+    public void setRoomId ( Integer roomId ) {
+        this.roomId = roomId;
     }
 
-    public String getRname() {
-        return rname;
+    public String getRoomName () {
+        return roomName;
     }
 
-    public void setRname(String rname) {
-        this.rname = rname;
+    public void setRoomName ( String roomName ) {
+        this.roomName = roomName;
     }
 
     public Integer getIsEmpty() {

@@ -11,14 +11,14 @@
 <table>
     <c:forEach items="${selEmpty}" var="l">
         <tr>
-            <td>${l.rid}</td>
-            <td>${l.rname}</td>
+            <td>${l.roomId}</td>
+            <td>${l.roomName}</td>
             <td>${l.isEmpty}</td>
             <td>${l.useBySid}</td>
             <td>${l.signUpTid}</td>
             <td>${l.applyTime}</td>
             <td>${l.returnTime}</td>
-            <td><a href="${pageContext.request.contextPath}/styroom/middle?rid=${l.rid}" >申请</a></td>
+            <td><a href="${pageContext.request.contextPath}/styroom/middle?rid=${l.roomId}" >申请</a></td>
         </tr>
     </c:forEach>
 </table>

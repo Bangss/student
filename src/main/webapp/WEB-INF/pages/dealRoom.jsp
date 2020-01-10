@@ -11,15 +11,15 @@
 <table>
     <c:forEach items="${dealRoom}" var="l">
         <tr>
-            <td>${l.rid}</td>
-            <td>${l.rname}</td>
+            <td>${l.roomId}</td>
+            <td>${l.roomName}</td>
             <td>${l.isEmpty}</td>
             <td>${l.useBySid}</td>
             <td>${l.signUpTid}</td>
             <td>${l.applyTime}</td>
             <td>${l.returnTime}</td>
-            <td><a href="${pageContext.request.contextPath }/styroom/teaDeal?rid=${l.rid}&isEmpty=0">拒绝</a></td>
-            <td><a href="${pageContext.request.contextPath }/styroom/teaDeal?rid=${l.rid}&isEmpty=1">同意</a></td>
+            <td><a href="${pageContext.request.contextPath }/styroom/teaDeal?rid=${l.roomId}&isEmpty=0">拒绝</a></td>
+            <td><a href="${pageContext.request.contextPath }/styroom/teaDeal?rid=${l.roomId}&isEmpty=1">同意</a></td>
         </tr>
     </c:forEach>
 </table>
