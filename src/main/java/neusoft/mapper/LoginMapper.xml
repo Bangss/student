@@ -15,7 +15,7 @@
     <select id="getAll" resultType="Login">
         select * from login
     </select>
-    <select id="getById" resultType="Login">
+    <select id="getSup" resultType="Login">
         select sup form login where id = #{id}
     </select>
 
