@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="lingnan.mapper.StudentMapper">
+
+        <!-- 配置resultMap属性，进行表字段与实体类属性映射 -->
+        <resultMap id="BaseResultMap" type="lingnan.pojo.Student" >
+            <result column="stu_name" property="stuName"></result>
+            <result column="gender" property="gender"></result>
+            <result column="age" property="age"></result>
+            <result column="dep_id" property="depId"></result>
+            <result column="email" property="email"></result>
+            <result column="reg_time" property="regTime"></result>
+            <result column="last_log_time" property="lastLogTime"></result>
+        </resultMap>
+
+        <insert id="insert">
+        insert into student
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="stuName != null">
+                stu_name,
+            </if>
+            <if test="gender != null">
+                gender,
+            </if>
+             <if test="age != null">
+                age,
+             </if>
+             <if test="depId != null">
+                 dep_id,
+             </if>
+             <if test="email != null">
+                 email,
+             </if>
+             <if test="regTime != null">
+                 reg_time,
+             </if>
+        </trim>
+        values
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="stuName != null">
+                #{stuName},
+            </if>
+            <if test="gender != null">
+                #{gender},
+            </if>
+            <if test="age != null">
+                #{age},
+            </if>
+            <if test="depId != null">
+                #{depId},
+            </if>
+            <if test="email != null">
+                #{email},
+            </if>
+            <if test="regTime != null">
+                #{regTime},
+            </if>
+        </trim>
+    </insert>
+
+    <select id="getByEmail" resultType="Student">
+        select * from student where email = #{email}
+    </select>
+
+    <update id="updateLastLogTime">
+        update student set last_log_time = '${lastLogTime}'
+        where stu_id = '${id}'
+    </update>
+</mapper>

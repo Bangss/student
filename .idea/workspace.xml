@@ -6,11 +6,165 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb166905-620e-4067-b525-e1bc53bca9c2" name="Default Changelist" comment="登录时验证身份">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/77f73790-e78a-416d-a214-4bdd3331bc26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/77f73790-e78a-416d-a214-4bdd3331bc26.xml" afterDir="false" />
+    <list default="true" id="cb166905-620e-4067-b525-e1bc53bca9c2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lingnan/controller/AskController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lingnan/controller/StudyroomController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lingnan/mapper/AskMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lingnan/mapper/StudyroomMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lingnan/mapper/StudyroomMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lingnan/pojo/Studyroom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lingnan/service/StudyroomService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lingnan/service/impl/AskServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lingnan/service/impl/StudyroomServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-conf.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/applyRoom.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/dealRoom.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/notEmpty.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/returnRoom.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/stuAlreadySel.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/font/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/transfer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/winter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/77f73790-e78a-416d-a214-4bdd3331bc26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/77f73790-e78a-416d-a214-4bdd3331bc26/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neusoft/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/neusoft/controller/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neusoft/mapper/LoginMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/neusoft/mapper/LoginMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neusoft/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lingnan/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neusoft/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lingnan/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neusoft/controller/StudyroomController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neusoft/mapper/AskMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lingnan/mapper/AskMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neusoft/mapper/LoginMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lingnan/mapper/LoginMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neusoft/mapper/LoginMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lingnan/mapper/LoginMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neusoft/mapper/StudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lingnan/mapper/StudentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neusoft/mapper/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lingnan/mapper/StudentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neusoft/mapper/StudyroomMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neusoft/mapper/StudyroomMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neusoft/pojo/Ask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lingnan/pojo/Ask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neusoft/pojo/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lingnan/pojo/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neusoft/pojo/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lingnan/pojo/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neusoft/pojo/Studyroom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neusoft/pojo/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lingnan/pojo/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neusoft/service/AskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lingnan/service/AskService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neusoft/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lingnan/service/LoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neusoft/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lingnan/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neusoft/service/StudyroomService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neusoft/service/impl/LoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lingnan/service/impl/LoginServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neusoft/service/impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lingnan/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neusoft/service/impl/StudyroomServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/neusoft/test/Test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,67 +188,12 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="student" type="feb32156:DbDataSourceImpl" />
+        <item name="student@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="student" type="feb32156:DbDataSourceImpl" />
+        <item name="student@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="student" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="student: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="student" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="student: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="course: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="student" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="student: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="depart: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="student" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="student: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="login: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="student" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="student: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="score: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="student" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="student: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="student: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="student" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="student: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="studyroom: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="student" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="student: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="teacher: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -119,7 +218,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GiteeDefaultAccount">
-    <option name="defaultAccountId" value="ff0d4f7c-0f15-415e-a3ea-5d32b89dd62f" />
+    <option name="defaultAccountId" value="d35b8d7d-1b92-4c55-b9df-b2a8d92f4704" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -165,28 +264,30 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/JavaWebTools/Tomcat/webapps/student" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/lingnan/mapper" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.gitee" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEA\student\src\main\java\lingnan\mapper" />
+      <recent name="D:\IDEA\student\src\main\java\lingnan\service\impl" />
+      <recent name="D:\IDEA\student\src\main\java\lingnan\service" />
+      <recent name="D:\IDEA\student\src\main\java\lingnan\pojo" />
+      <recent name="D:\IDEA\student\src\main\java\lingnan\controller" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IDEA\student\src\main\java\lingnan\pojo" />
       <recent name="D:\IDEA\student\src\main\webapp" />
       <recent name="D:\IDEA\student\src\main\webapp\WEB-INF\pages" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IDEA\student\target\classes\neusoft\controller" />
-      <recent name="D:\IDEA\student\src\main\webapp\WEB-INF\pages" />
-      <recent name="D:\IDEA\student\src\main\resources\neusoft.mapper" />
-      <recent name="D:\IDEA\student\src\main\resources" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 7.0.42">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="neusoft.test.Test" />
-      <module name="student" />
+      <module name="winter" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="neusoft.test.*" />
@@ -198,7 +299,7 @@
       </method>
     </configuration>
     <configuration name="Test.dateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="student" />
+      <module name="winter" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="neusoft.test.*" />
@@ -214,7 +315,7 @@
       </method>
     </configuration>
     <configuration name="Test.sessionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="student" />
+      <module name="winter" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="neusoft.test.*" />
@@ -338,13 +439,7 @@
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:student" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@7eb62e14" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:student" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@5a154e69" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="root:student@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -383,7 +478,7 @@
       <workItem from="1578616645830" duration="482000" />
       <workItem from="1578617893185" duration="439000" />
       <workItem from="1578618364873" duration="139000" />
-      <workItem from="1578618521057" duration="3202000" />
+      <workItem from="1578618521057" duration="5765000" />
     </task>
     <task id="LOCAL-00001" summary="student">
       <created>1578555084164</created>
@@ -406,7 +501,21 @@
       <option name="project" value="LOCAL" />
       <updated>1578618690344</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="修改一些错误">
+      <created>1578621769755</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578621769755</updated>
+    </task>
+    <task id="LOCAL-00005" summary="修改一些错误">
+      <created>1578621806077</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1578621806077</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -416,7 +525,8 @@
     <MESSAGE value="student" />
     <MESSAGE value="增加学生注册同时插入login表新的数据" />
     <MESSAGE value="登录时验证身份" />
-    <option name="LAST_COMMIT_MESSAGE" value="登录时验证身份" />
+    <MESSAGE value="修改一些错误" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改一些错误" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="91" key="#Notifications" timestamp="1578554578237">
@@ -435,10 +545,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="496" y="297" key="#com.intellij.codeInsight.i18n.I18nizeQuickFixDialog/0.0.1536.864@0.0.1536.864" timestamp="1578281263233" />
-    <state x="88" y="98" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578579400672">
+    <state x="88" y="98" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578623799105">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="88" y="98" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1578579400672" />
+    <state x="88" y="98" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1578623799105" />
     <state x="574" y="149" key="#com.intellij.ide.util.MemberChooser" timestamp="1578539969297">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -455,10 +565,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1578581765362" />
-    <state x="372" y="25" key="CommitChangelistDialog2" timestamp="1578621779156">
+    <state x="372" y="25" key="CommitChangelistDialog2" timestamp="1578621815950">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="372" y="25" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1578621779156" />
+    <state x="372" y="25" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1578621815950" />
     <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1578315374531">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -483,22 +593,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="644" y="323" width="272" height="217" key="Github.ShareDialog/0.0.1536.864@0.0.1536.864" timestamp="1578557827010" />
-    <state width="1225" height="256" key="GridCell.Tab.0.bottom" timestamp="1578621647589">
+    <state width="1225" height="256" key="GridCell.Tab.0.bottom" timestamp="1578623193043">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1225" height="256" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1578621647589" />
-    <state width="1225" height="256" key="GridCell.Tab.0.center" timestamp="1578621647589">
+    <state width="1225" height="256" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1578623193043" />
+    <state width="1225" height="256" key="GridCell.Tab.0.center" timestamp="1578623193043">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1225" height="256" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1578621647589" />
-    <state width="1225" height="256" key="GridCell.Tab.0.left" timestamp="1578621647589">
+    <state width="1225" height="256" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1578623193043" />
+    <state width="1225" height="256" key="GridCell.Tab.0.left" timestamp="1578623193042">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1225" height="256" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1578621647589" />
-    <state width="1225" height="256" key="GridCell.Tab.0.right" timestamp="1578621647589">
+    <state width="1225" height="256" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1578623193042" />
+    <state width="1225" height="256" key="GridCell.Tab.0.right" timestamp="1578623193043">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1225" height="256" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1578621647589" />
+    <state width="1225" height="256" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1578623193043" />
     <state width="1225" height="256" key="GridCell.Tab.1.bottom" timestamp="1578621636752">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -563,14 +673,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1225" height="256" key="GridCell.Tab.4.right/0.0.1536.864@0.0.1536.864" timestamp="1578619290125" />
-    <state x="132" y="73" width="996" height="707" key="SettingsEditor" timestamp="1578621733488">
+    <state x="477" y="148" key="MultipleFileMergeDialog" timestamp="1578623327125">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="132" y="73" width="996" height="707" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1578621733488" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1578578377879">
+    <state x="477" y="148" key="MultipleFileMergeDialog/0.0.1536.864@0.0.1536.864" timestamp="1578623327125" />
+    <state x="132" y="73" width="996" height="707" key="SettingsEditor" timestamp="1578622848073">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1578578377879" />
+    <state x="132" y="73" width="996" height="707" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1578622848073" />
+    <state x="93" y="93" width="1350" height="678" key="ShowDiffWithBranchDialog" timestamp="1578623800133">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="93" y="93" width="1350" height="678" key="ShowDiffWithBranchDialog/0.0.1536.864@0.0.1536.864" timestamp="1578623800133" />
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1578623098468">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1578623098468" />
     <state x="581" y="306" width="374" height="272" key="com.intellij.database.actions.DdlActions$CommentOnObjectAction$1" timestamp="1578215211124">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -583,6 +701,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="478" y="72" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.864@0.0.1536.864" timestamp="1578621591967" />
+    <state x="630" y="121" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1578623766602">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="630" y="121" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1536.864@0.0.1536.864" timestamp="1578623766602" />
+    <state x="562" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578621857513">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="562" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1578621857513" />
     <state x="469" y="224" key="git4idea.merge.GitPullDialog" timestamp="1578578691432">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
