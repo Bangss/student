@@ -16,7 +16,7 @@ you are a admin!!
 <form action="${ctx}/unknown/logout">
     <button>注销</button>
 </form>
-<form action="http://localhost:8080/student/handleask.jsp">
+<form action="http://localhost:8080/winter/handleask.jsp">
     <button>处理</button>
 </form>
 </body>

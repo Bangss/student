@@ -16,7 +16,7 @@ you are a student!!
 <form action="${ctx}/unknown/logout">
     <button>注销</button>
 </form>
-<form action="http://localhost:8080/student/ask.jsp" method="post">
+<form action="http://localhost:8080/winter/ask.jsp" method="post">
     <button>请假</button>
 </form>
 </body>
