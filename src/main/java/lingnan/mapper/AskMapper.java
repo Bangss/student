@@ -1,6 +1,6 @@
 package lingnan.mapper;
 
-import neusoft.pojo.Ask;
+import lingnan.pojo.Ask;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
