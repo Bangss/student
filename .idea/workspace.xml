@@ -8,8 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cb166905-620e-4067-b525-e1bc53bca9c2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lingnan/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lingnan/controller/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lingnan/mapper/LoginMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lingnan/mapper/LoginMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -323,7 +321,7 @@
       <workItem from="1578616645830" duration="482000" />
       <workItem from="1578617893185" duration="439000" />
       <workItem from="1578618364873" duration="139000" />
-      <workItem from="1578618521057" duration="6139000" />
+      <workItem from="1578618521057" duration="6510000" />
     </task>
     <task id="LOCAL-00001" summary="student">
       <created>1578555084164</created>
@@ -388,7 +386,21 @@
       <option name="project" value="LOCAL" />
       <updated>1578624502309</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Merge branch 'master' of https://gitee.com/lu_min_jie/together&#10;&#10;# Conflicts:&#10;#&#9;.idea/compiler.xml&#10;#&#9;.idea/dataSources.xml&#10;#&#9;.idea/encodings.xml&#10;#&#9;pom.xml&#10;#&#9;src/main/resources/application-context.xml&#10;#&#9;src/main/resources/log4j.xml&#10;#&#9;src/main/resources/spring-mvc.xml&#10;#&#9;src/main/resources/spring-mybatis.xml&#10;#&#9;src/main/resources/spring-tx.xml&#10;#&#9;src/main/webapp/WEB-INF/pages/Studyroom.jsp&#10;#&#9;src/main/webapp/WEB-INF/web.xml">
+      <created>1578624707750</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1578624707750</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Merge branch 'master' of https://gitee.com/lu_min_jie/together&#10;&#10;# Conflicts:&#10;#&#9;.idea/compiler.xml&#10;#&#9;.idea/dataSources.xml&#10;#&#9;.idea/encodings.xml&#10;#&#9;pom.xml&#10;#&#9;src/main/resources/application-context.xml&#10;#&#9;src/main/resources/log4j.xml&#10;#&#9;src/main/resources/spring-mvc.xml&#10;#&#9;src/main/resources/spring-mybatis.xml&#10;#&#9;src/main/resources/spring-tx.xml&#10;#&#9;src/main/webapp/WEB-INF/pages/Studyroom.jsp&#10;#&#9;src/main/webapp/WEB-INF/web.xml">
+      <created>1578624855872</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1578624855872</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -439,10 +451,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1578624420882" />
-    <state x="372" y="0" key="CommitChangelistDialog2" timestamp="1578624706562">
+    <state x="372" y="0" key="CommitChangelistDialog2" timestamp="1578625179317">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="372" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1578624706562" />
+    <state x="372" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1578625179317" />
     <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1578315374531">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -467,54 +479,54 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="644" y="323" width="272" height="217" key="Github.ShareDialog/0.0.1536.864@0.0.1536.864" timestamp="1578557827010" />
-    <state width="1225" height="256" key="GridCell.Tab.0.bottom" timestamp="1578623193043">
+    <state width="1225" height="256" key="GridCell.Tab.0.bottom" timestamp="1578625073152">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1225" height="256" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1578623193043" />
-    <state width="1225" height="256" key="GridCell.Tab.0.center" timestamp="1578623193043">
+    <state width="1225" height="256" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1578625073152" />
+    <state width="1225" height="256" key="GridCell.Tab.0.center" timestamp="1578625073152">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1225" height="256" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1578623193043" />
-    <state width="1225" height="256" key="GridCell.Tab.0.left" timestamp="1578623193042">
+    <state width="1225" height="256" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1578625073152" />
+    <state width="1225" height="256" key="GridCell.Tab.0.left" timestamp="1578625073152">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1225" height="256" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1578623193042" />
-    <state width="1225" height="256" key="GridCell.Tab.0.right" timestamp="1578623193043">
+    <state width="1225" height="256" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1578625073152" />
+    <state width="1225" height="256" key="GridCell.Tab.0.right" timestamp="1578625073152">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1225" height="256" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1578623193043" />
-    <state width="1225" height="256" key="GridCell.Tab.1.bottom" timestamp="1578621636752">
+    <state width="1225" height="256" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1578625073152" />
+    <state width="1225" height="256" key="GridCell.Tab.1.bottom" timestamp="1578625073153">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1225" height="256" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1578621636752" />
-    <state width="1225" height="256" key="GridCell.Tab.1.center" timestamp="1578621636751">
+    <state width="1225" height="256" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1578625073153" />
+    <state width="1225" height="256" key="GridCell.Tab.1.center" timestamp="1578625073153">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1225" height="256" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1578621636751" />
-    <state width="1225" height="256" key="GridCell.Tab.1.left" timestamp="1578621636751">
+    <state width="1225" height="256" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1578625073153" />
+    <state width="1225" height="256" key="GridCell.Tab.1.left" timestamp="1578625073153">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1225" height="256" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1578621636751" />
-    <state width="1225" height="256" key="GridCell.Tab.1.right" timestamp="1578621636751">
+    <state width="1225" height="256" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1578625073153" />
+    <state width="1225" height="256" key="GridCell.Tab.1.right" timestamp="1578625073153">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1225" height="256" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1578621636751" />
-    <state width="1225" height="256" key="GridCell.Tab.2.bottom" timestamp="1578621636751">
+    <state width="1225" height="256" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1578625073153" />
+    <state width="1225" height="256" key="GridCell.Tab.2.bottom" timestamp="1578625073153">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1225" height="256" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1578621636751" />
-    <state width="1225" height="256" key="GridCell.Tab.2.center" timestamp="1578621636751">
+    <state width="1225" height="256" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1578625073153" />
+    <state width="1225" height="256" key="GridCell.Tab.2.center" timestamp="1578625073153">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1225" height="256" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1578621636751" />
-    <state width="1225" height="256" key="GridCell.Tab.2.left" timestamp="1578621636751">
+    <state width="1225" height="256" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1578625073153" />
+    <state width="1225" height="256" key="GridCell.Tab.2.left" timestamp="1578625073153">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1225" height="256" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1578621636751" />
-    <state width="1225" height="256" key="GridCell.Tab.2.right" timestamp="1578621636751">
+    <state width="1225" height="256" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1578625073153" />
+    <state width="1225" height="256" key="GridCell.Tab.2.right" timestamp="1578625073153">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1225" height="256" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1578621636751" />
+    <state width="1225" height="256" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1578625073153" />
     <state width="1225" height="256" key="GridCell.Tab.3.bottom" timestamp="1578619699026">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
