@@ -21,8 +21,8 @@ public class StudentServiceImpl implements StudentService {
     }
 
     @Override
-    public boolean updateLastLogTime ( Integer id, String lastLogTime ) {
-        return studentMapper.updateLastLogTime(id , lastLogTime);
+    public boolean updateLastLogTime ( Integer stuId, String lastLogTime ) {
+        return studentMapper.updateLastLogTime(stuId , lastLogTime);
     }
 
 }

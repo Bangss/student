@@ -66,6 +66,6 @@
 
     <update id="updateLastLogTime">
         update student set last_log_time = '${lastLogTime}'
-        where stu_id = '${id}'
+        where stu_id = '${stuId}'
     </update>
 </mapper>

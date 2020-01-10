@@ -10,5 +10,5 @@ import org.springframework.stereotype.Repository;
 public interface StudentMapper {
     boolean insert ( Student student );
     Student getByEmail ( String email );
-    boolean updateLastLogTime ( @Param("id") Integer id, @Param("lastLogTime") String lastLogTime );
+    boolean updateLastLogTime ( @Param("stuId") Integer stuId, @Param("lastLogTime") String lastLogTime );
 }

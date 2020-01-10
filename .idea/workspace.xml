@@ -7,11 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb166905-620e-4067-b525-e1bc53bca9c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Tdocm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lingnan/mapper/TeacherMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lingnan/service/TeacherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lingnan/service/impl/TeacherServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/student.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/student.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/teacher.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/teacher.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lingnan/mapper/StudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lingnan/mapper/StudentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lingnan/mapper/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lingnan/mapper/StudentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lingnan/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lingnan/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lingnan/service/impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lingnan/service/impl/StudentServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +101,9 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1VxtkiV3nB4kotDM9AKddUcQ7er" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -327,7 +332,7 @@
       <workItem from="1578625118575" duration="900000" />
       <workItem from="1578626042197" duration="1159000" />
       <workItem from="1578627239438" duration="297000" />
-      <workItem from="1578627557532" duration="696000" />
+      <workItem from="1578627557532" duration="1872000" />
     </task>
     <task id="LOCAL-00001" summary="student">
       <created>1578555084164</created>
@@ -413,7 +418,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578625181334</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Merge branch 'master' of https://gitee.com/lu_min_jie/together&#10;&#10;# Conflicts:&#10;#&#9;.idea/compiler.xml&#10;#&#9;.idea/dataSources.xml&#10;#&#9;.idea/encodings.xml&#10;#&#9;pom.xml&#10;#&#9;src/main/resources/application-context.xml&#10;#&#9;src/main/resources/log4j.xml&#10;#&#9;src/main/resources/spring-mvc.xml&#10;#&#9;src/main/resources/spring-mybatis.xml&#10;#&#9;src/main/resources/spring-tx.xml&#10;#&#9;src/main/webapp/WEB-INF/pages/Studyroom.jsp&#10;#&#9;src/main/webapp/WEB-INF/web.xml">
+      <created>1578628447078</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1578628447078</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -448,10 +460,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="80" y="108" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1578627861978" />
-    <state x="574" y="149" key="#com.intellij.ide.util.MemberChooser" timestamp="1578539969297">
+    <state x="574" y="149" key="#com.intellij.ide.util.MemberChooser" timestamp="1578628940040">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="574" y="149" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1578539969297" />
+    <state x="574" y="149" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1578628940040" />
     <state x="315" y="105" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1578293481973">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -464,10 +476,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1578624420882" />
-    <state x="372" y="0" key="CommitChangelistDialog2" timestamp="1578625179317">
+    <state x="372" y="0" key="CommitChangelistDialog2" timestamp="1578628445496">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="372" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1578625179317" />
+    <state x="372" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1578628445496" />
     <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1578315374531">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
