@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 
 
 import java.time.LocalDate;
-import java.util.Date;
+
 
 @Controller
 @RequestMapping("/student")
@@ -36,12 +36,16 @@ public class StudentController {
 //        获取系统时间，YY-MM-DD作为注册时间
         String date = String.valueOf(LocalDate.now());
         student.setRegTime(date);
-      boolean flag = studentService.insert(student);
+//        login.setId(student.getStuId());
+//        System.out.println(student.getStuId());
+        boolean flag = studentService.insert(student);
         if (flag)
         {
-//            //注册成功
-            login.setId(student.getStuId());
+            //注册成功
+            //获取学生id，默认密码000000，权限1
+            login.setId(studentService.getByEmail(student.getEmail()).getStuId());
             login.setPassword("000000");
+            login.setSup(1);
             loginService.insert(login);
             System.out.println("register succeeded");
             return "forward:../login.jsp";

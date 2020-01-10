@@ -10,13 +10,13 @@
         where id = #{id} and password = #{password}
     </select>
     <select id="getById" resultType="Login">
-        select * form login where id = #{id}
+        select * from login where id = #{id}
     </select>
     <select id="getAll" resultType="Login">
         select * from login
     </select>
-    <select id="getSup" resultType="Login">
-        select sup form login where id = #{id}
+    <select id="getSup" resultType="Integer">
+        select sup from login where id = #{id}
     </select>
 
     <update id="updatePass">
@@ -39,4 +39,31 @@
             </foreach>
         </where>
     </delete>
+    
+    <insert id="insert">
+        insert into login
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id != null">
+                id,
+            </if>
+            <if test="password != null">
+                password,
+            </if>
+            <if test="sup != null">
+                sup,
+            </if>
+        </trim>
+            values
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id != null">
+                #{id},
+            </if>
+            <if test="password != null">
+                #{password},
+            </if>
+            <if test="sup != null">
+                #{sup},
+            </if>
+        </trim>
+    </insert>
 </mapper>
