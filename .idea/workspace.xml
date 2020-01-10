@@ -7,164 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb166905-620e-4067-b525-e1bc53bca9c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lingnan/controller/AskController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lingnan/controller/StudyroomController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lingnan/mapper/AskMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lingnan/mapper/StudyroomMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lingnan/mapper/StudyroomMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lingnan/pojo/Studyroom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lingnan/service/StudyroomService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lingnan/service/impl/AskServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lingnan/service/impl/StudyroomServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-conf.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/applyRoom.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/dealRoom.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/notEmpty.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/returnRoom.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/stuAlreadySel.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/layui.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/code.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/font/iconfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/colorpicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/element.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/flow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/laydate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/layedit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/laypage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/laytpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/rate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/transfer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/layui.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/layui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/test.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/winter.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/77f73790-e78a-416d-a214-4bdd3331bc26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/77f73790-e78a-416d-a214-4bdd3331bc26/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neusoft/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lingnan/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neusoft/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lingnan/controller/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neusoft/controller/StudyroomController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neusoft/mapper/AskMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lingnan/mapper/AskMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neusoft/mapper/LoginMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lingnan/mapper/LoginMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neusoft/mapper/LoginMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lingnan/mapper/LoginMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neusoft/mapper/StudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lingnan/mapper/StudentMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neusoft/mapper/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lingnan/mapper/StudentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neusoft/mapper/StudyroomMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neusoft/mapper/StudyroomMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neusoft/pojo/Ask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lingnan/pojo/Ask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neusoft/pojo/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lingnan/pojo/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neusoft/pojo/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lingnan/pojo/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neusoft/pojo/Studyroom.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neusoft/pojo/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lingnan/pojo/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neusoft/service/AskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lingnan/service/AskService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neusoft/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lingnan/service/LoginService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neusoft/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lingnan/service/StudentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neusoft/service/StudyroomService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neusoft/service/impl/LoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lingnan/service/impl/LoginServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neusoft/service/impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lingnan/service/impl/StudentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neusoft/service/impl/StudyroomServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/neusoft/test/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lingnan/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lingnan/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lingnan/mapper/LoginMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lingnan/mapper/LoginMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -478,7 +323,7 @@
       <workItem from="1578616645830" duration="482000" />
       <workItem from="1578617893185" duration="439000" />
       <workItem from="1578618364873" duration="139000" />
-      <workItem from="1578618521057" duration="5765000" />
+      <workItem from="1578618521057" duration="6139000" />
     </task>
     <task id="LOCAL-00001" summary="student">
       <created>1578555084164</created>
@@ -515,7 +360,35 @@
       <option name="project" value="LOCAL" />
       <updated>1578621806077</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Merge branch 'master' of https://gitee.com/lu_min_jie/together&#10;&#10;# Conflicts:&#10;#&#9;.idea/compiler.xml&#10;#&#9;.idea/dataSources.xml&#10;#&#9;.idea/encodings.xml&#10;#&#9;pom.xml&#10;#&#9;src/main/resources/application-context.xml&#10;#&#9;src/main/resources/log4j.xml&#10;#&#9;src/main/resources/spring-mvc.xml&#10;#&#9;src/main/resources/spring-mybatis.xml&#10;#&#9;src/main/resources/spring-tx.xml&#10;#&#9;src/main/webapp/WEB-INF/pages/Studyroom.jsp&#10;#&#9;src/main/webapp/WEB-INF/web.xml">
+      <created>1578624345465</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1578624345465</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Merge branch 'master' of https://gitee.com/lu_min_jie/together&#10;&#10;# Conflicts:&#10;#&#9;.idea/compiler.xml&#10;#&#9;.idea/dataSources.xml&#10;#&#9;.idea/encodings.xml&#10;#&#9;pom.xml&#10;#&#9;src/main/resources/application-context.xml&#10;#&#9;src/main/resources/log4j.xml&#10;#&#9;src/main/resources/spring-mvc.xml&#10;#&#9;src/main/resources/spring-mybatis.xml&#10;#&#9;src/main/resources/spring-tx.xml&#10;#&#9;src/main/webapp/WEB-INF/pages/Studyroom.jsp&#10;#&#9;src/main/webapp/WEB-INF/web.xml">
+      <created>1578624377959</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1578624377959</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Merge branch 'master' of https://gitee.com/lu_min_jie/together&#10;&#10;# Conflicts:&#10;#&#9;.idea/compiler.xml&#10;#&#9;.idea/dataSources.xml&#10;#&#9;.idea/encodings.xml&#10;#&#9;pom.xml&#10;#&#9;src/main/resources/application-context.xml&#10;#&#9;src/main/resources/log4j.xml&#10;#&#9;src/main/resources/spring-mvc.xml&#10;#&#9;src/main/resources/spring-mybatis.xml&#10;#&#9;src/main/resources/spring-tx.xml&#10;#&#9;src/main/webapp/WEB-INF/pages/Studyroom.jsp&#10;#&#9;src/main/webapp/WEB-INF/web.xml">
+      <created>1578624457835</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1578624457835</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Merge branch 'master' of https://gitee.com/lu_min_jie/together&#10;&#10;# Conflicts:&#10;#&#9;.idea/compiler.xml&#10;#&#9;.idea/dataSources.xml&#10;#&#9;.idea/encodings.xml&#10;#&#9;pom.xml&#10;#&#9;src/main/resources/application-context.xml&#10;#&#9;src/main/resources/log4j.xml&#10;#&#9;src/main/resources/spring-mvc.xml&#10;#&#9;src/main/resources/spring-mybatis.xml&#10;#&#9;src/main/resources/spring-tx.xml&#10;#&#9;src/main/webapp/WEB-INF/pages/Studyroom.jsp&#10;#&#9;src/main/webapp/WEB-INF/web.xml">
+      <created>1578624502309</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1578624502309</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -526,7 +399,8 @@
     <MESSAGE value="增加学生注册同时插入login表新的数据" />
     <MESSAGE value="登录时验证身份" />
     <MESSAGE value="修改一些错误" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改一些错误" />
+    <MESSAGE value="Merge branch 'master' of https://gitee.com/lu_min_jie/together&#10;&#10;# Conflicts:&#10;#&#9;.idea/compiler.xml&#10;#&#9;.idea/dataSources.xml&#10;#&#9;.idea/encodings.xml&#10;#&#9;pom.xml&#10;#&#9;src/main/resources/application-context.xml&#10;#&#9;src/main/resources/log4j.xml&#10;#&#9;src/main/resources/spring-mvc.xml&#10;#&#9;src/main/resources/spring-mybatis.xml&#10;#&#9;src/main/resources/spring-tx.xml&#10;#&#9;src/main/webapp/WEB-INF/pages/Studyroom.jsp&#10;#&#9;src/main/webapp/WEB-INF/web.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://gitee.com/lu_min_jie/together&#10;&#10;# Conflicts:&#10;#&#9;.idea/compiler.xml&#10;#&#9;.idea/dataSources.xml&#10;#&#9;.idea/encodings.xml&#10;#&#9;pom.xml&#10;#&#9;src/main/resources/application-context.xml&#10;#&#9;src/main/resources/log4j.xml&#10;#&#9;src/main/resources/spring-mvc.xml&#10;#&#9;src/main/resources/spring-mybatis.xml&#10;#&#9;src/main/resources/spring-tx.xml&#10;#&#9;src/main/webapp/WEB-INF/pages/Studyroom.jsp&#10;#&#9;src/main/webapp/WEB-INF/web.xml" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="91" key="#Notifications" timestamp="1578554578237">
@@ -565,10 +439,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1578624420882" />
-    <state x="372" y="0" key="CommitChangelistDialog2" timestamp="1578624456803">
+    <state x="372" y="0" key="CommitChangelistDialog2" timestamp="1578624501491">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="372" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1578624456803" />
+    <state x="372" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1578624501491" />
     <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1578315374531">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

@@ -1,9 +1,9 @@
 package lingnan.controller;
 
-import neusoft.pojo.Login;
-import neusoft.pojo.Student;
-import neusoft.service.LoginService;
-import neusoft.service.StudentService;
+import lingnan.pojo.Login;
+import lingnan.pojo.Student;
+import lingnan.service.LoginService;
+import lingnan.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
