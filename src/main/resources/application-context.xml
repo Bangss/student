@@ -12,7 +12,7 @@
     <context:property-placeholder location="classpath:jdbc.properties" />
     <!--添加注解支持-->
     <context:annotation-config />
-    <context:component-scan base-package="neusoft" />
+    <context:component-scan base-package="lingnan" />
     <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName" value="${driver}" />
         <property name="url" value="${url}" />
